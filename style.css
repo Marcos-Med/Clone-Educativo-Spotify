@@ -1,0 +1,211 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar{
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container{
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#navbar .navbar-container .logo{
+
+    width: auto;
+    height: 40px;
+}
+
+#navbar .navbar-container ul{
+
+    display: flex;
+    list-style: none;
+}
+
+#navbar .navbar-container ul li{
+
+    padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+
+    border-right: 1px solid white;
+}
+
+
+#showcase{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("../img/showcase.webp") center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#showcase .showcase-container h2 {
+
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p{
+
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.btn-spotify{
+
+    background-color: #1db954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#footer .footer-content .logo{
+
+    width: auto;
+    height: 40px;
+}
+
+#footer{
+
+    background: black;
+    color:white;
+}
+
+#footer .footer-content{
+
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+#footer .footer-content .footer-items{
+
+    margin: 0 40px;
+    list-style: none;
+
+}
+#footer .footer-content .footer-items p{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+#footer .footer-content .footer-items .footer-item{
+
+    margin: 25px 0;
+}
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-info .footer-info-items {
+
+    list-style: none;
+    display: flex;
+    margin-left: 29%;
+}
+
+.footer-info .footer-info-items .footer-info-item{
+
+    padding: 5px;
+    margin-left: 3px;    
+
+}
+
+.rights .contry p{
+
+    display: flex;
+    margin-left:85%;
+}
+
+.brazil{
+
+    height: 32px;
+    width: 45px;
+    margin-left: 5px;
+}
+
+.rights p{
+
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.item-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-y{
+
+    color: white;
+}
+
+.btn-spotify:hover .btn-y{
+
+    color: black;
+    
+}
+
+.btn-spotify:hover{
+    background-color: aquamarine;
+}
+
+
+.tp:hover{
+    color: aquamarine;
+}
